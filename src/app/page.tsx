@@ -1,17 +1,7 @@
-import Image from 'next/image'
-
 export default function Home() {
     return (
-        <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-            <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-                <Image
-                    src="/images/unsplash.jpg"
-                    alt="Next.js logo"
-                    width={1920}
-                    height={1280}
-                    quality={100}
-                />
-            </main>
-        </div>
+        <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+            <h2>Next JS with Typescript</h2>
+        </main>
     )
 }
