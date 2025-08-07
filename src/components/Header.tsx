@@ -71,6 +71,22 @@ export default function Header() {
                         </Link>
 
                         <Link
+                            href="/blog/blog-post-one?lang=en"
+                            title=""
+                            className="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                        >
+                            Blog One
+                        </Link>
+
+                        <Link
+                            href="/blog/blog-post-two?category=tshirt&limit=50"
+                            title=""
+                            className="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                        >
+                            Blog Two
+                        </Link>
+
+                        <Link
                             href="/contact"
                             title=""
                             className="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
